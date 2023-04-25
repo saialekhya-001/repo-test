@@ -14,7 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://postman.echo/get /"
+				"url": "https://postman.echo/get"
 			},
 			"response": []
 		}
