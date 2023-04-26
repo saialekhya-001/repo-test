@@ -13,7 +13,8 @@
 					"script": {
 						"id": "4de3993d-08ee-492d-a101-4ec26573de93",
 						"exec": [
-							"// some comments"
+							"// some comments",
+							"// commenmts"
 						],
 						"type": "text/javascript"
 					}
@@ -27,7 +28,7 @@
 				"method": "HEAD",
 				"header": [],
 				"url": "https://postman.echo/get",
-				"description": "Christiansen - Rempel"
+				"description": "Stokes and Sons"
 			},
 			"response": []
 		}
