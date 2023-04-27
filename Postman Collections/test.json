@@ -26,7 +26,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "HEAD",
+				"method": "GET",
 				"header": [],
 				"url": "https://postman.echo/get",
 				"description": "Stamm LLC"
