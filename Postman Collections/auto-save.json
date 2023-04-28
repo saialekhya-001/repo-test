@@ -23,7 +23,7 @@
 							"})",
 							"",
 							"",
-							"// here commment here also heren hahhag gjhghjg jhghg"
+							"// some here issue"
 						],
 						"type": "text/javascript"
 					}
@@ -87,6 +87,57 @@
 				}
 			],
 			"id": "34ba8e24-9d36-41e3-9609-5b57f0128976",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/my-name?token={{token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"my-name"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				},
+				"description": "This request uses the saved `token` collection variable to access a secret 'name' stored against that token.\n\nIn this request, we used the `token` collection variable as a query param to fetch the name generated for that token. We have added a test to check that a name is correctly returned."
+			},
+			"response": []
+		},
+		{
+			"name": "Get name Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"A name is returned\", () => {",
+							"    pm.expect(pm.response.json()).to.have.property('name');",
+							"    pm.expect(pm.response.json().name).to.be.a('string');",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "08d08017-12ce-49f2-bf6c-4ca9f45ba48f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
