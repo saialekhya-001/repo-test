@@ -23,8 +23,16 @@
 							"})",
 							"",
 							"",
-							"// some here issue"
+							"// some here issue comment come on here issues hello hi hi hi hi hi hello hello save sayfff hello"
 						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "91b94dea-4583-4a69-b7c4-91c86fbb541e",
+						"exec": [],
 						"type": "text/javascript"
 					}
 				}
@@ -71,6 +79,38 @@
 			"response": []
 		},
 		{
+			"name": "Register Copy 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0551f41f-dec4-4254-827a-3cf5e35bb1e4",
+						"exec": [
+							"pm.test(\"An access token is returned\", () => {",
+							"    pm.expect(pm.response.json()).to.have.property('token')",
+							"    pm.expect(pm.response.json().token).to.be.a('string')",
+							"    // Set the collection-scope \"token\" variable to the token received from the API",
+							"    // This lets us use it in other requests",
+							"    pm.collectionVariables.set('token', pm.response.json().token)",
+							"})",
+							"",
+							"",
+							"// here commment here also heren hahhag gjhghjg jhghg"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "6099822c-ec61-48bc-b29f-acaf19f4e655",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{baseUrl}}/register",
+				"description": "This returns a `token` that you can use to retrieve information later on.\n\nWe have included a test to confirm if a token is returned. We have also added test scripts to copy the token to the `token` collection variable. This makes it easy for us to reuse this token in other requests in the collection."
+			},
+			"response": []
+		},
+		{
 			"name": "Get name",
 			"event": [
 				{
@@ -87,6 +127,57 @@
 				}
 			],
 			"id": "34ba8e24-9d36-41e3-9609-5b57f0128976",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/my-name?token={{token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"my-name"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				},
+				"description": "This request uses the saved `token` collection variable to access a secret 'name' stored against that token.\n\nIn this request, we used the `token` collection variable as a query param to fetch the name generated for that token. We have added a test to check that a name is correctly returned."
+			},
+			"response": []
+		},
+		{
+			"name": "Get name Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"A name is returned\", () => {",
+							"    pm.expect(pm.response.json()).to.have.property('name');",
+							"    pm.expect(pm.response.json().name).to.be.a('string');",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "aeb1c1df-2ae3-42ea-8741-59db41f5a171",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
