@@ -135,6 +135,18 @@
 				"description": "Stamm LLC"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "537616e2-7586-4937-ac90-b367c5104789",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
