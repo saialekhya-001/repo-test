@@ -124,7 +124,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"foo\": \n}",
+					"raw": "{\n    \"foo\": \"bar\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
