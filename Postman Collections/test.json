@@ -30,14 +30,35 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"foo\": 12 Personal Loan Account  cross-platform \n}",
+					"raw": "{\n    \"foo\": \"12 Personal Loan Account  cross-platform \"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "",
+				"url": {
+					"raw": "https://postman-echo.com/get?foo=bar&{{$randomBankAccount}}={{$randomAdjective}}",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "foo",
+							"value": "bar",
+							"description": "nice"
+						},
+						{
+							"key": "{{$randomBankAccount}}",
+							"value": "{{$randomAdjective}}"
+						}
+					]
+				},
 				"description": "Stamm LLC"
 			},
 			"response": []
