@@ -108,7 +108,9 @@
 					"listen": "prerequest",
 					"script": {
 						"id": "fcf81ee6-65cb-4283-a4ae-b37f77d5c571",
-						"exec": [],
+						"exec": [
+							""
+						],
 						"type": "text/javascript"
 					}
 				}
@@ -122,7 +124,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"foo\": 12 Personal Loan Account  cross-platform \n}",
+					"raw": "{\n    \"foo\": \n}",
 					"options": {
 						"raw": {
 							"language": "json"
