@@ -74,22 +74,20 @@
 					"name": "1 Copy",
 					"event": [
 						{
-							"listen": "prerequest",
+							"listen": "test",
 							"script": {
-								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"id": "246add9c-5605-4aa8-b7f8-4cd258054b9e",
 								"exec": [
-									"pm.environment.get(\"variable_key\");"
+									"// changed waiting for auto save, not yet once Alekhya"
 								],
 								"type": "text/javascript"
 							}
 						},
 						{
-							"listen": "test",
+							"listen": "prerequest",
 							"script": {
-								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
-								"exec": [
-									""
-								],
+								"id": "ca82808e-989c-4c50-8ab6-b5b7f40a5eb6",
+								"exec": [],
 								"type": "text/javascript"
 							}
 						}
