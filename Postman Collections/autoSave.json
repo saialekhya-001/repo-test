@@ -78,7 +78,7 @@
 							"script": {
 								"id": "246add9c-5605-4aa8-b7f8-4cd258054b9e",
 								"exec": [
-									"// changed waiting for auto save, not yet once Alekhya"
+									"// changed waiting for auto save, not yet once Alekhya changed waiting for trigger"
 								],
 								"type": "text/javascript"
 							}
@@ -86,7 +86,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "ca82808e-989c-4c50-8ab6-b5b7f40a5eb6",
+								"id": "b7e85a21-c9b1-402a-9c2e-fd17f3d87e04",
 								"exec": [],
 								"type": "text/javascript"
 							}
