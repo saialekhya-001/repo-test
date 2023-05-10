@@ -79,7 +79,7 @@
 								"id": "246add9c-5605-4aa8-b7f8-4cd258054b9e",
 								"exec": [
 									"// changed waiting for auto save, not yet once Alekhya changed waiting for trigger",
-									"// hey changed for BB"
+									"// hey changed for BB from postman"
 								],
 								"type": "text/javascript"
 							}
@@ -87,7 +87,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "6cff89c9-8738-48b9-9beb-4730dd304c89",
+								"id": "2abe2874-a5e9-45cd-bb84-d7abeaad2e6c",
 								"exec": [],
 								"type": "text/javascript"
 							}
