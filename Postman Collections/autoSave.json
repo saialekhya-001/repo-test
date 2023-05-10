@@ -262,21 +262,21 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "e14280ab-3864-4367-bb8d-1d659dba1663",
+						"id": "005adfb2-d86e-4c55-a5d6-9c9dda4a2c17",
 						"type": "text/javascript",
 						"exec": [
 							"pm.globals.set(\"variable_key\", \"variable_value\");",
 							"pm.environment.unset(\"variable_key\");",
 							"pm.globals.unset(\"variable_key\");",
 							"",
-							"//patched"
+							"//patched hello"
 						]
 					}
 				},
 				{
 					"listen": "test",
 					"script": {
-						"id": "30e33641-2a39-4790-9fcc-19852175b8c9",
+						"id": "fb799abc-c1dd-405b-af32-d59fff9d51fa",
 						"type": "text/javascript",
 						"exec": [
 							""
