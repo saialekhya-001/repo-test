@@ -1,0 +1,567 @@
+{
+	"info": {
+		"_postman_id": "3b4e22c6-c15c-4bec-8622-cf143d64fb90",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1",
+			"item": [
+				{
+					"name": "1",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "e53eeeae-ef89-437c-9766-15da822d8dfb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "HEAD",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "dasdas",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "1--pudi",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				},
+				{
+					"name": "1 Copy",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "724a20f1-d02d-4814-a837-875997e78c8f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				},
+				{
+					"name": "2",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "833d5f14-a47b-4af9-8f50-5a94d909b1d9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				},
+				{
+					"name": "2 Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3e9bc7d1-8f6e-44ef-85b7-aae37be0793b",
+								"exec": [
+									"// high saveasdasdas"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "a29a93fc-55e7-454c-9e5c-50eb7660eaa6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "5bfc9e73-f717-4589-9c4f-8ee99082329b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				}
+			],
+			"id": "9afae03f-06bf-4478-91e1-f3b09ab29871",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "e14280ab-3864-4367-bb8d-1d659dba1663",
+						"type": "text/javascript",
+						"exec": [
+							"pm.globals.set(\"variable_key\", \"variable_value\");",
+							"pm.environment.unset(\"variable_key\");",
+							"pm.globals.unset(\"variable_key\");",
+							"",
+							"//patched"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "30e33641-2a39-4790-9fcc-19852175b8c9",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "2",
+			"item": [
+				{
+					"name": "1",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "50084561-5005-4e67-8dad-0474e0a14c8f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				},
+				{
+					"name": "1 Copy",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "ba67789f-9f32-432d-9786-b37f84f81fe4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				},
+				{
+					"name": "2",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "b2cee3bd-aa3b-4e04-a88b-1f0648309f63",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				},
+				{
+					"name": "2 Copy",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
+								"exec": [
+									"pm.environment.get(\"variable_key\");"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e464b402-fb57-4946-a75c-cbf1e947cef3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "1ff63f27-b08d-4b69-bf9a-67e7b787a1aa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "edgegrid",
+							"edgegrid": {
+								"headersToSign": "1",
+								"baseURL": "1",
+								"timestamp": "1",
+								"nonce": "1",
+								"clientSecret": "1",
+								"clientToken": "1",
+								"accessToken": "1"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "flo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "dasda",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": "google.com "
+					},
+					"response": []
+				}
+			],
+			"id": "9e31511b-a472-4bb5-959b-ebf850225f6c",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "99931fcc-262f-4965-94a6-73e8d8752dc8",
+						"type": "text/javascript",
+						"exec": [
+							"pm.globals.set(\"variable_key\", \"variable_value\");",
+							"pm.environment.unset(\"variable_key\");",
+							"pm.globals.unset(\"variable_key\");"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "8ab6af87-621f-4e0a-8989-40b38d2d27cf",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	]
+}
