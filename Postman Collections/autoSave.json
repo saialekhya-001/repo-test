@@ -263,7 +263,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "21628e1d-cb17-4597-be19-89732bf5c848",
+						"id": "b455d404-da13-41fb-916f-5636b5656adc",
 						"type": "text/javascript",
 						"exec": [
 							"pm.globals.set(\"variable_key\", \"variable_value\");",
@@ -277,10 +277,10 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "06eee984-ab3c-48a9-a353-88eb7c0903f7",
+						"id": "c8019075-612a-4f82-89f6-eac13a94ba86",
 						"type": "text/javascript",
 						"exec": [
-							""
+							"// changed the folder"
 						]
 					}
 				}
