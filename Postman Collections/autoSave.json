@@ -564,5 +564,27 @@
 				}
 			]
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "7ee72e4a-25b1-482f-be00-5a628a3c9f08",
+				"type": "text/javascript",
+				"exec": [
+					"// hello"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b6305171-c568-43b0-85c5-b5a99406b403",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
 	]
 }
