@@ -1107,7 +1107,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "99931fcc-262f-4965-94a6-73e8d8752dc8",
+						"id": "133a0a09-46a4-4d6c-be52-d1304ff186fd",
 						"type": "text/javascript",
 						"exec": [
 							"pm.globals.set(\"variable_key\", \"variable_value\");",
@@ -1119,10 +1119,10 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "8ab6af87-621f-4e0a-8989-40b38d2d27cf",
+						"id": "3e14ff50-c0ab-4439-9ec5-5f58bf4ff8e2",
 						"type": "text/javascript",
 						"exec": [
-							""
+							"// changed at 45"
 						]
 					}
 				}
