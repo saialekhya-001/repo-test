@@ -679,18 +679,7 @@
 						"header": [],
 						"body": {
 							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "flo",
-									"value": "",
-									"type": "text"
-								},
-								{
-									"key": "dasda",
-									"value": "",
-									"type": "text"
-								}
-							]
+							"urlencoded": []
 						},
 						"url": "google.com "
 					},
@@ -890,7 +879,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "google.com "
 					},
 					"response": []
 				}
