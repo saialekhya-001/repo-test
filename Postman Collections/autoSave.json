@@ -569,7 +569,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "3f0ea504-c125-4c75-801f-80c4fc1fcefd",
+				"id": "16945821-7ab0-4aee-a164-42d3ccc560bb",
 				"type": "text/javascript",
 				"exec": [
 					"// hello"
@@ -579,10 +579,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "21a6b3e2-fdcb-479f-852c-3a323f7b882e",
+				"id": "8f794ec4-9290-442b-b355-6cfde83e127f",
 				"type": "text/javascript",
 				"exec": [
-					"// hello collection saved"
+					"// hello collection saved",
+					"// saved"
 				]
 			}
 		}
