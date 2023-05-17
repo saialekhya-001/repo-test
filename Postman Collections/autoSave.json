@@ -826,7 +826,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "b455d404-da13-41fb-916f-5636b5656adc",
+						"id": "bf547d25-f7f0-4bc9-871a-2fd24b1dc2d0",
 						"type": "text/javascript",
 						"exec": [
 							"pm.globals.set(\"variable_key\", \"variable_value\");",
@@ -840,10 +840,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c8019075-612a-4f82-89f6-eac13a94ba86",
+						"id": "6de77489-32bb-4fdf-a571-0ce3835f2279",
 						"type": "text/javascript",
 						"exec": [
-							"// changed the folder"
+							"// changed the folder",
+							"// hahah"
 						]
 					}
 				}
