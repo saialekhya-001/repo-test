@@ -634,58 +634,6 @@
 					"response": []
 				},
 				{
-					"name": "1 Copy",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "246add9c-5605-4aa8-b7f8-4cd258054b9e",
-								"exec": [
-									"// changed waiting for auto save, not yet once Alekhya changed waiting for trigger",
-									"// hey changed for BB from postman",
-									"",
-									"// changed for GL"
-								],
-								"type": "text/javascript"
-							}
-						},
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "90b1d73d-5b29-4339-8b17-54f456ebd8be",
-								"exec": [],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "c7a907e4-b04a-46b6-87c3-82f28c887ce8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"auth": {
-							"type": "edgegrid",
-							"edgegrid": {
-								"headersToSign": "1",
-								"baseURL": "1",
-								"timestamp": "1",
-								"nonce": "1",
-								"clientSecret": "1",
-								"clientToken": "1",
-								"accessToken": "1"
-							}
-						},
-						"method": "PATCH",
-						"header": [],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": []
-						},
-						"url": "google.com "
-					},
-					"response": []
-				},
-				{
 					"name": "2",
 					"event": [
 						{
