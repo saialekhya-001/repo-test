@@ -287,7 +287,7 @@
 			]
 		},
 		{
-			"name": "1 Copy 2",
+			"name": "1 Copy",
 			"item": [
 				{
 					"name": "1",
@@ -313,7 +313,7 @@
 							}
 						}
 					],
-					"id": "c5520094-712f-41c1-a019-30ba351be410",
+					"id": "9fdfaa5a-f844-4866-a177-1a849621adab",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -376,7 +376,7 @@
 							}
 						}
 					],
-					"id": "387ff486-2a93-4365-b8b1-555e82df10b3",
+					"id": "d006ccd2-726c-452d-aaee-cb5148376a68",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -438,7 +438,7 @@
 							}
 						}
 					],
-					"id": "ca7b397d-36aa-4030-bba7-f7769ac4d009",
+					"id": "44bf7a55-3d8b-4255-89e6-623c7cdf0e40",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -500,7 +500,7 @@
 							}
 						}
 					],
-					"id": "9bc29e53-c06d-40ed-9562-86bf89038b61",
+					"id": "0cb189b1-c947-44ad-954d-6f1d65c8595f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -539,7 +539,7 @@
 					"response": []
 				}
 			],
-			"id": "9b07323d-cea3-4b97-8658-ffcb3e440b1f",
+			"id": "30fab7cf-0160-4669-8a51-10c760a911d9",
 			"event": [
 				{
 					"listen": "prerequest",
