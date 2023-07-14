@@ -1509,7 +1509,8 @@
 									"pm.environment.get(\"variable_key\");",
 									"// hello world postman great !",
 									"// great updates yes Postman !",
-									"// hello world"
+									"// hello world updates here again !",
+									"// again updates"
 								],
 								"type": "text/javascript"
 							}
