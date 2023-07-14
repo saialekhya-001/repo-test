@@ -1506,7 +1506,7 @@
 								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
 								"exec": [
 									"pm.environment.get(\"variable_key\");",
-									"// hellosdasdsad dasdasgjhgjhdasdasadsdasdasaffdsfdasddasda"
+									"// hellosdasdsad dasdasgjhgjhdasdasadsdasdasaffdsfdasddasdadas"
 								],
 								"type": "text/javascript"
 							}
