@@ -1509,7 +1509,7 @@
 									"pm.environment.get(\"variable_key\");",
 									"// hellosdasdsad dasdasgjhgjhdasdasadsdasdasaffdsfdasddasdadasdasdasda",
 									"// hello postman hello world ! great",
-									"// heloo "
+									"// heloo  great postman"
 								],
 								"type": "text/javascript"
 							}
