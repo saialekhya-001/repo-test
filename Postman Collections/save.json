@@ -2120,7 +2120,7 @@
 								"id": "90b1d73d-5b29-4339-8b17-54f456ebd8be",
 								"exec": [
 									"// helloadsasdasdafasfsdfasdasdsdada dadas sadasd asdas sas",
-									"// helloadsasdasdafasfsdfasdasdsdada dadas sadasd asdas sas"
+									"// helloadsasdasdafasfsdfasdasdsdada dadas sadasd asdas sas dadasddsasdsdasdsdasdadsadasasdasdsadassadasdasdasdasdassadsaddadada"
 								],
 								"type": "text/javascript"
 							}
@@ -2234,7 +2234,8 @@
 							"script": {
 								"id": "c27c7909-6734-4e42-8db3-0631e2f1eff2",
 								"exec": [
-									"pm.environment.get(\"variable_key\");"
+									"pm.environment.get(\"variable_key\");",
+									"// hello postmans sdsaghjghjgj"
 								],
 								"type": "text/javascript"
 							}
