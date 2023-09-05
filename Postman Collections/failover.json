@@ -13,20 +13,9 @@
 					"script": {
 						"id": "b0f5a585-641a-498f-a7ac-e47123d3c166",
 						"exec": [
-							"// updated here// updated here",
-							"// updated here",
-							"// updated here",
-							"// updated here",
-							"// updated here",
-							"// updated here",
-							"// updated here// updated here// updated here// updated here// updated here",
-							"// updated here",
-							"// updated here",
-							"// updated here// updated here// updated here// updated here// updated here",
-							"// updated here",
-							"// updated here// updated here// updated here// updated heresails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.info// updated here// updated here// updated here// updated heresails.log.infosails.",
-							"// updated here// updated here// updated here// updated heresails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.info// updated here// updated here// updated here// updated heresails.log.infosails.",
-							"// updated here// updated here// updated here// updated heresails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.infosails.log.info// updated here// updated here// updated here// updated heresails.log.infosails.",
+							"",
+							"// hehe world Alekhya",
+							"// hello say hello ! ! ! ! ! ! ! ! ! !  ! ! !// hehe world Alekhya",
 							""
 						],
 						"type": "text/javascript"
@@ -52,7 +41,17 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// made some changes",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://postman.com/echo"
 			},
 			"response": []
 		}
