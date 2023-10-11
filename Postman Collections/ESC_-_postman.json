@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "4c41fd5a-dae7-45b7-8e3a-6aa5bae43948",
+		"name": "test",
+		"description": "// making some changes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Alekhya Folder",
+			"item": [],
+			"id": "5dbde820-7e13-4f73-b59f-070a879dd8cd",
+			"description": "// added description"
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "0442ba59-28f7-4101-a8d8-ef6e0791999b",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "0d3e588d-e5c4-4921-adb6-2465e1913f57",
+						"exec": [
+							"pm.environment.set(\"RESPONSE\", {\"data\": \"OKayyyy\"});",
+							"",
+							"// hello update hello hehehe hey yeah yes yes make an update helloheyegood",
+							"// morning",
+							"pm.environment.set(\"RESPONSE\", {\"data\": \"OKayyyy\"});",
+							"",
+							"// hello update hello hehehe hey yeah yes yes make an update helloheyegood",
+							"// morning",
+							"pm.environment.set(\"RESPONSE\", {\"data\": \"OKayyyy\"});",
+							"",
+							"// hello update hello hehehe hey yeah yes yes make an update helloheyegood",
+							"// morning",
+							"pm.environment.set(\"RESPONSE\", {\"data\": \"OKayyyy\"});",
+							"",
+							"// hello update hello hehehe hey yeah yes yes make an update helloheyegood",
+							"// morning",
+							"// hello",
+							"// hey ",
+							"// lets say",
+							"// updated"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "466f34a5-bdc8-4f12-bfda-5f57911aa732",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://postman-echo.com/get"
+			},
+			"response": []
+		},
+		{
+			"name": "Alekhya test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "da9c5732-da75-4306-a6eb-582cf9a4b1ec",
+						"exec": [
+							"// prod fix release",
+							"",
+							"// made changes yo yo yo hey hey yohey hey",
+							"",
+							"// upadted the changes// now making updates # alekhya",
+							"// made test changes #alekhya for CUE"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "a79a6a7f-8d5c-4c04-a41e-b61e65451744",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "prod fix",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "99a0d0d2-2e23-44e6-a472-7121ad9cae7f",
+						"exec": [
+							"// hey yo"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "51ade6d2-abcd-4022-b45c-78907b23bcce",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c1352678-1eb3-414c-a312-846574634fdc",
+				"type": "text/javascript",
+				"exec": [
+					"// hellobhgjgjvbvjhjghhjhgjhgjhgjhgjhghj SAI ALEKHYAdadadasadadaa asdadaasdasdasda",
+					"// updated again hkjhjkhkjkhjkhhjkhjkhhkjhkjupdated",
+					"// hello good morning",
+					"// just now updated",
+					"// 5:58 PM"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "bdf53d6b-b925-4d18-8b60-58f21c8cec06",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
