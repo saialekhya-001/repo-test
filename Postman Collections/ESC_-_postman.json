@@ -49,7 +49,12 @@
 							"// hello",
 							"// hey ",
 							"// lets say",
-							"// updated"
+							"// updated",
+							"pm.environment.set(\"variable_key\", \"variable_value\");",
+							"pm.globals.set(\"variable_key\", \"variable_value\");",
+							"pm.collectionVariables.set(\"variable_key\", \"variable_value\");",
+							"pm.collectionVariables.set(\"variable_key\", \"variable_value\");",
+							"pm.environment.unset(\"variable_key\");"
 						],
 						"type": "text/javascript"
 					}
@@ -62,7 +67,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://postman-echo.com/get"
+				"url": "https://postman-echo.com/get/home"
 			},
 			"response": []
 		},
