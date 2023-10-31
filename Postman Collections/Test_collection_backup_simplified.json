@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "d22c2783-fe3b-4cb5-a54e-8c6802e10028",
+		"name": "Test collection backup simplified",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "echo",
+			"id": "42d9ca66-bb02-40df-87db-8a4c54118dbf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://postman.echo.com"
+			},
+			"response": []
+		}
+	]
+}
