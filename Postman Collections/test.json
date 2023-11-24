@@ -1,80 +1,43 @@
 {
 	"info": {
-		"_postman_id": "2646b896-87d9-4255-85f7-204f54b10482",
-		"name": "Test collection",
+		"_postman_id": "c0b9404b-f83d-4425-865c-8ec46d8836a0",
+		"name": "test",
+		"description": "// updated",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "New Request",
-			"event": [
+			"name": "New Folder",
+			"item": [
 				{
-					"listen": "test",
-					"script": {
-						"id": "4de3993d-08ee-492d-a101-4ec26573de93",
-						"exec": [
-							"// some comments",
-							"// commenmts",
-							"//updated"
-						],
-						"type": "text/javascript"
-					}
+					"name": "hello",
+					"id": "dd627077-61d7-4740-bd61-00f5114c4a07",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"description": "Changed: 0.722842409678893"
+					},
+					"response": []
 				}
 			],
-			"id": "6831f121-c17a-4e4e-8784-923b85ce575f",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"foo\": \"12 Personal Loan Account  cross-platform \"\n}dasdsa",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://postman-echo.com/get?foo=bar&{{$randomBankAccount}}={{$randomAdjective}}",
-					"protocol": "https",
-					"host": [
-						"postman-echo",
-						"com"
-					],
-					"path": [
-						"get"
-					],
-					"query": [
-						{
-							"key": "foo",
-							"value": "bar",
-							"description": "nice"
-						},
-						{
-							"key": "{{$randomBankAccount}}",
-							"value": "{{$randomAdjective}}"
-						}
-					]
-				},
-				"description": "Stamm LLC"
-			},
-			"response": []
+			"id": "3ee5103a-27e7-4143-a7a7-7d411dd798a2",
+			"description": "// updated hello\n\n// hye"
 		},
 		{
-			"name": "New Request Copy",
+			"name": "Details about a user",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
-						"id": "4de3993d-08ee-492d-a101-4ec26573de93",
+						"id": "2fa5a826-bc29-45dc-8642-d420cf4cafef",
 						"exec": [
-							"// some comments",
-							"// commenmts",
-							"//updated",
-							"/// hdjksahdskajkhdkajsdhksa"
+							"pm.collectionVariables.get(\"variable_key\");",
+							"pm.environment.set(\"variable_key\", \"variable_value\");",
+							"pm.globals.set(\"variable_key\", \"variable_value\");",
+							"// hello"
 						],
 						"type": "text/javascript"
 					}
@@ -82,92 +45,165 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "2ac6ed9c-981d-4d79-b829-10e2ad720593",
+						"id": "1d2b57de-1caa-4ed8-abe9-ef51808c3019",
 						"exec": [],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"id": "350eddd0-fe8e-4620-b54a-adab35b95914",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"id": "a62b660d-397f-4c25-8ec5-4f427de1c412",
 			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"foo\": 12 Personal Loan Account  cross-platform \n}",
-					"options": {
-						"raw": {
-							"language": "json"
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/user?id=26130025",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "26130025",
+							"description": "(Required) ID of the user"
 						}
-					}
+					]
 				},
-				"url": "https://postman.echo/get",
-				"description": "Stamm LLC"
+				"description": "Changed: 0.15031273705192688"
 			},
-			"response": []
-		},
-		{
-			"name": "New Request Copy",
-			"event": [
+			"response": [
 				{
-					"listen": "test",
-					"script": {
-						"id": "4de3993d-08ee-492d-a101-4ec26573de93",
-						"exec": [
-							"// some comments",
-							"// commenmts",
-							"//updated",
-							"//d dhasujdghsa"
+					"id": "b0f4aaa1-9a87-4396-a370-19a42aa83669",
+					"name": "Details about a user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
 						],
-						"type": "text/javascript"
-					}
+						"url": {
+							"raw": "{{baseUrl}}/user?id=26130025",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "26130025"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "labore reprehenderit qui incididunt"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"id\": -19420920,\n  \"name\": \"proident fugiat non commodo\",\n  \"tag\": \"dolor\"\n}"
 				},
 				{
-					"listen": "prerequest",
-					"script": {
-						"id": "fcf81ee6-65cb-4283-a4ae-b37f77d5c571",
-						"exec": [
-							""
+					"id": "2dde3e52-b02a-42c0-a578-7023f79c7a4a",
+					"name": "unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
 						],
-						"type": "text/javascript"
-					}
+						"url": {
+							"raw": "{{baseUrl}}/user?id=26130025",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "26130025"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"code\": -35623673,\n  \"message\": \"et veniam consectetur anim reprehenderit\"\n}"
 				}
-			],
-			"id": "858872a6-40e0-43ef-ae9f-809257e70de2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"foo\": \"bar\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "https://postman.echo/getddasdas",
-				"description": "Stamm LLC"
-			},
-			"response": []
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"username": "<Basic Auth Username>",
+			"password": "<Basic Auth Password>"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3c1dcbdd-6aaa-47f1-8403-54c1b4b4aec5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		},
 		{
-			"name": "New Request",
-			"id": "537616e2-7586-4937-ac90-b367c5104789",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
+			"listen": "test",
+			"script": {
+				"id": "cc722033-5a9d-47b9-91f7-52cbb499cde8",
+				"type": "text/javascript",
+				"exec": [
+					"// updated collection"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
 		}
 	]
 }
