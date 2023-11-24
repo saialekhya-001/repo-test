@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "341aac01-3edf-4404-bcb1-dc1481a80039",
+		"name": "new test",
+		"description": "hey hey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hello",
+			"id": "189dfb30-6fcc-41e7-a381-30081d755131",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// hello"
+				}
+			},
+			"response": []
+		}
+	]
+}
