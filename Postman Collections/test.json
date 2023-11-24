@@ -38,7 +38,9 @@
 							"pm.environment.set(\"variable_key\", \"variable_value\");",
 							"pm.globals.set(\"variable_key\", \"variable_value\");",
 							"// hello",
-							"// hey updted"
+							"// hey updted",
+							"",
+							"// hey here"
 						],
 						"type": "text/javascript"
 					}
