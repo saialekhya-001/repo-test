@@ -37,7 +37,8 @@
 							"pm.collectionVariables.get(\"variable_key\");",
 							"pm.environment.set(\"variable_key\", \"variable_value\");",
 							"pm.globals.set(\"variable_key\", \"variable_value\");",
-							"// hello"
+							"// hello",
+							"// hey"
 						],
 						"type": "text/javascript"
 					}
@@ -46,7 +47,9 @@
 					"listen": "prerequest",
 					"script": {
 						"id": "1d2b57de-1caa-4ed8-abe9-ef51808c3019",
-						"exec": [],
+						"exec": [
+							""
+						],
 						"type": "text/javascript"
 					}
 				}
