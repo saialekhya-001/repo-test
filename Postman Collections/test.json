@@ -41,7 +41,8 @@
 							"// hey updted",
 							"",
 							"// hey here",
-							"// hey "
+							"// hey ",
+							"// hello"
 						],
 						"type": "text/javascript"
 					}
@@ -58,6 +59,9 @@
 				}
 			],
 			"id": "a62b660d-397f-4c25-8ec5-4f427de1c412",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "OPTIONS",
 				"header": [
